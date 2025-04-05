@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movu Developers</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Language Switcher -->
+    <div id="language-switcher" class="language-switcher">
+        <button onclick="toggleLanguage('en')">English</button>
+        <button onclick="toggleLanguage('es')">Español</button>
+    </div>
+
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <!-- Company Logo -->
+            <img src="images/movu-logo.png" alt="Movu Developers Logo" class="company-logo">
+
+            <!-- Company Name and Tagline -->
+            <h1 data-en="Movu Developers - Professional App & Web Development" data-es="Movu Developers - Desarrollo Profesional de Apps y Webs">Movu Developers - Professional App & Web Development</h1>
+            <p data-en="Building your ideas into digital realities with Movu Developers" data-es="Convirtiendo tus ideas en realidades digitales con Movu Developers">Building your ideas into digital realities with Movu Developers</p>
+            <a href="#contact" class="cta-btn" data-en="Get in Touch" data-es="Contáctanos">Get in Touch</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
+            <div class="service-box">
+                <h3 data-en="Mobile App Development" data-es="Desarrollo de Apps Móviles">Mobile App Development</h3>
+                <p data-en="We design and build engaging mobile applications for both iOS and Android platforms, tailored to your business needs." data-es="Diseñamos y construimos aplicaciones móviles atractivas para iOS y Android, adaptadas a las necesidades de tu negocio.">We design and build engaging mobile applications for both iOS and Android platforms, tailored to your business needs.</p>
+            </div>
+            <div class="service-box">
+                <h3 data-en="Web Development" data-es="Desarrollo Web">Web Development</h3>
+                <p data-en="Creating modern, responsive, and SEO-friendly websites that help establish your brand online and increase reach." data-es="Creamos sitios web modernos, responsivos y optimizados para SEO que ayudan a establecer tu marca en línea y aumentar su alcance.">Creating modern, responsive, and SEO-friendly websites that help establish your brand online and increase reach.</p>
+            </div>
+            <div class="service-box">
+                <h3 data-en="UI/UX Design" data-es="Diseño UI/UX">UI/UX Design</h3>
+                <p data-en="Crafting intuitive and beautiful interfaces to enhance user experience and engagement." data-es="Creamos interfaces intuitivas y atractivas para mejorar la experiencia y el compromiso del usuario.">Crafting intuitive and beautiful interfaces to enhance user experience and engagement.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 data-en="About Us" data-es="Sobre Nosotros">About Me</h2>
+            <p data-en="With over 5 years of experience in app and web development, we bring a wealth of knowledge and expertise to each project. Our focus is on delivering high-quality, scalable solutions that meet the unique needs of each client." data-es="Con más de 5 años de experiencia en desarrollo de aplicaciones y sitios web, aportamos un gran conocimiento y experiencia a cada proyecto. Nuestro objetivo es ofrecer soluciones de alta calidad y escalables que satisfagan las necesidades únicas de cada cliente.">With over 5 years of experience in app and web development, we bring a wealth of knowledge and expertise to each project. Our focus is on delivering high-quality, scalable solutions that meet the unique needs of each client.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 data-en="Contact Us" data-es="Contáctanos">Contact Us</h2>
+            <form id="contact-form">
+                <label for="name" data-en="Name" data-es="Nombre">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email" data-en="Email" data-es="Correo Electrónico">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message" data-en="Message" data-es="Mensaje">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" data-en="Send Message" data-es="Enviar Mensaje">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
